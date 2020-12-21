@@ -15,6 +15,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import {withStyles} from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
+import Button from '@material-ui/core/Button';
 
 
 const useStyles = theme => ({
@@ -46,7 +47,7 @@ const useStyles = theme => ({
         display: "grid",
         gridTemplateColumns: "repeat(12, 1fr)",
         gridGap: `${theme.spacing.unit * 3}px`
-      },
+    },
 });
 
 export class ProductCard extends Component {
@@ -172,14 +173,91 @@ export class ProductCard extends Component {
                 color: "red",
                 offerPrice: "90",
                 rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
+            },
+            {
+                productName: "IPhone",
+                productPrice: "100",
+                productDes: "Test",
+                color: "red",
+                offerPrice: "90",
+                rating: "4.5"
             }
         ];
         return (
                 <Grid container spacing={24}>
                     {StaticProduct.map((item, i) => {
-                          return (
-                    <Grid item md={3}>
-                                    <Card className={classes.root} style={{minWidth: '200px', alignSelf: 'flex-start', margin: '10px', position: 'relative'}}>
+                        return (
+                                <Grid item md={2} style={{alignContent: 'center'}}>
+                                    <Card className={classes.root} style={{
+                                        minWidth: '200px',
+                                        alignSelf: 'flex-start',
+                                        margin: '10px',
+                                        position: 'relative'
+                                    }}>
                                         <CardHeader
                                                 avatar={
                                                     <Avatar aria-label="recipe">
@@ -203,19 +281,21 @@ export class ProductCard extends Component {
                                                 {item.productPrice}
                                             </Typography>
                                         </CardContent>
-                                        <CardActions disableSpacing>
+                                        <CardActions disableSpacing style={{alignItems: "center"}}>
                                             <IconButton aria-label="add to favorites">
                                                 <FavoriteIcon/>
                                             </IconButton>
                                             <IconButton aria-label="share">
                                                 <ShareIcon/>
                                             </IconButton>
-                                            <IconButton
-                                                    aria-label="show more"
-                                            >
-                                                <ExpandMoreIcon/>
-                                            </IconButton>
+                                            <Typography variant="body2" color="textSecondary" component="p">
+                                                Price: {item.productPrice}
+                                            </Typography>
                                         </CardActions>
+                                        <Button variant="outlined" size="small" color="primary"
+                                                className={classes.margin}>
+                                            Add To Cart
+                                        </Button>
                                         <Collapse timeout="auto" unmountOnExit>
                                             <CardContent>
                                                 <Typography paragraph> {item.color}</Typography>
@@ -231,8 +311,8 @@ export class ProductCard extends Component {
                                             </CardContent>
                                         </Collapse>
                                     </Card>
-                    </Grid>
-                     )
+                                </Grid>
+                        )
                     })}
                 </Grid>
         )
