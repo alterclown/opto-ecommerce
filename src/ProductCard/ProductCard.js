@@ -175,10 +175,10 @@ export class ProductCard extends Component {
             }
         ];
         return (
-                <Grid container direction="column" spacing={24}>
+                <Grid container spacing={24}>
                     {StaticProduct.map((item, i) => {
                           return (
-                    <Grid item xs={4} sm={3}>
+                    <Grid item md={3}>
                                     <Card className={classes.root} style={{minWidth: '200px', alignSelf: 'flex-start', margin: '10px', position: 'relative'}}>
                                         <CardHeader
                                                 avatar={
