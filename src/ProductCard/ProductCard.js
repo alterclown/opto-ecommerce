@@ -16,13 +16,14 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import {withStyles} from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
+import Paper from '@material-ui/core/Paper';
+import SimpleImageSlider from "react-simple-image-slider";
 
 
 const useStyles = theme => ({
     root: {
         maxWidth: 200,
         minWidth: 200,
-
         maxHeight: 275,
         minHeight: 275,
     },
@@ -60,7 +61,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -271,8 +272,29 @@ export class ProductCard extends Component {
                 rating: "4.5"
             }
         ];
+
+        const images = [
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "/Static/Images/Cards/rashmika.jpg" },
+        ];
         return (
                 <Grid container spacing={24}>
+                    <Grid item xs={12}>
+                    <div>
+                <SimpleImageSlider
+                    width="auto"
+                    height={252}
+                    images={images}
+                    showBullets= "true"
+                    showNavs = "true"
+                />
+                </div>
+                    </Grid>
                     {StaticProduct.map((item, i) => {
                         return (
                                 <Grid item md={2} style={{alignContent: 'center'}}>
