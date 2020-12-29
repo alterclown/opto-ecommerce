@@ -27,7 +27,7 @@ const useStyles = theme => ({
         minHeight: 275,
     },
     media: {
-        height: 0,
+        height: '25%',
         paddingTop: '56.25%', // 16:9
     },
     expand: {
@@ -60,6 +60,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -68,6 +69,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -76,6 +78,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -84,6 +87,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -92,6 +96,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -100,6 +105,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -108,6 +114,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -116,6 +123,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -124,6 +132,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -132,6 +141,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -140,6 +150,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -148,6 +159,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -156,6 +168,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -164,6 +177,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -172,6 +186,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -180,6 +195,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -188,6 +204,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -196,6 +213,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -204,6 +222,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -212,6 +231,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -220,6 +240,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -228,6 +249,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -236,6 +258,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             },
             {
@@ -244,6 +267,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
+                photoUrl:"/Static/Images/Cards/rashmika.jpg",
                 rating: "4.5"
             }
         ];
@@ -273,7 +297,7 @@ export class ProductCard extends Component {
                                                 subheader="September 14, 2016"
                                         />
                                         <CardMedia
-                                                image="/static/images/cards/paella.jpg"
+                                                src={item.photoUrl}
                                                 title="Paella dish"
                                         />
                                         <CardContent>
