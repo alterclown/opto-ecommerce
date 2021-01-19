@@ -18,6 +18,8 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import SimpleImageSlider from "react-simple-image-slider";
+//import LogoBig from "../Static/Images/Cards/rashmika.jpg"
+//import LogoBig from "../../assets/images/rashmika.jpg";
 
 
 const useStyles = theme => ({
@@ -61,7 +63,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -70,7 +72,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -79,7 +81,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -88,7 +90,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -97,7 +99,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -106,7 +108,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -115,7 +117,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -124,7 +126,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -133,7 +135,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -142,7 +144,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -151,7 +153,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -160,7 +162,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -169,7 +171,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -178,7 +180,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -187,7 +189,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -196,7 +198,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -205,7 +207,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -214,7 +216,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -223,7 +225,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -232,7 +234,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -241,7 +243,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -250,7 +252,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -259,7 +261,7 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             },
             {
@@ -268,27 +270,27 @@ export class ProductCard extends Component {
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
-                photoUrl:"/Static/Images/Cards/rashmika.jpg",
+                photoUrl:"https://homepages.cae.wisc.edu/~ece533/images/girl.png",
                 rating: "4.5"
             }
         ];
 
         const images = [
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
-            { url: "/Static/Images/Cards/rashmika.jpg" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
+            { url: "https://homepages.cae.wisc.edu/~ece533/images/girl.png" },
         ];
         return (
                 <Grid container spacing={24}>
                     <Grid item xs={12}>
                     <div>
                 <SimpleImageSlider
-                    width="auto"
-                    height={252}
+                    width={1280}
+                    height={352}
                     images={images}
                     showBullets= "true"
                     showNavs = "true"
