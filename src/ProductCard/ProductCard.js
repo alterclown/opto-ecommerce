@@ -84,7 +84,7 @@ export class ProductCard extends Component {
             },
             {
                 productName: "IPhone",
-                productPrice: "100",
+                productPrice: "150",
                 productDes: "Test",
                 color: "red",
                 offerPrice: "90",
